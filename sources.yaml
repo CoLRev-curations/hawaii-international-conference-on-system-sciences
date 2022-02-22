@@ -1,0 +1,18 @@
+- filename: DBLP.bib
+  search_type: FEED
+  source_name: Hawaii International Conference on System Sciences
+  source_url: ''
+  search_parameters: 
+    - endpoint: dblp
+      params: 
+        venue_key: conf/hicss
+        journal_abbreviated: hicss
+  comment: ''
+- filename: pdfs.bib
+  search_type: PDFS
+  source_name: HCISS
+  source_url: pdfs
+  outlet: conference=Hawaii International Conference on System Sciences
+  sub_dir_pattern: year
+  search_parameters: NA
+  comment: NA

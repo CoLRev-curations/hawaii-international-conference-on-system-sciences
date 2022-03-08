@@ -4,9 +4,7 @@
   source_url: ''
   search_parameters: 
     - endpoint: dblp
-      params: 
-        venue_key: conf/hicss
-        journal_abbreviated: hicss
+      params: SCOPE venue_key='conf/hicss' AND journal_abbreviated='hicss'
   comment: ''
 - filename: pdfs.bib
   search_type: PDFS

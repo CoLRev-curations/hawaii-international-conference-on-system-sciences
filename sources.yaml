@@ -9,15 +9,6 @@
   comment: ''
   outlet: null
   sub_dir_pattern: null
-- filename: pdfs.bib
-  search_type: PDFS
-  source_name: HCISS
-  source_url: pdfs
-  search_parameters: NA
-  last_sync: null
-  comment: NA
-  outlet: conference=Hawaii International Conference on System Sciences
-  sub_dir_pattern: year
 - filename: CROSSREF.bib
   search_type: FEED
   source_name: CROSSREF
@@ -27,3 +18,11 @@
   comment: ''
   outlet: null
   sub_dir_pattern: null
+- filename: pdfs.bib
+  search_type: FEED
+  source_name: HICSS
+  source_url: pdfs
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH conference='Hawaii International Conference on System Sciences' AND sub_dir_pattern='year'
+  comment: NA

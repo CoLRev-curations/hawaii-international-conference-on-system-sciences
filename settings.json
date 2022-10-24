@@ -55,7 +55,7 @@
                     "subdir_pattern": "year",
                     "type": "conference",
                     "conference": "Hawaii International Conference on System Sciences",
-                    "path": "pdfs"
+                    "path": "data/pdfs"
                 }
             },
             "load_conversion_package_endpoint": {

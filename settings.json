@@ -19,7 +19,7 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": true,
-        "curation_url": "https://github.com/geritwagner/hawaii-international-conference-on-system-sciences",
+        "curation_url": "https://github.com/CoLRev-curations/hawaii-international-conference-on-system-sciences",
         "curated_masterdata": true,
         "curated_fields": [
             "doi",

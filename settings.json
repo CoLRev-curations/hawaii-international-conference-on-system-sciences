@@ -55,7 +55,7 @@
             "search_type": "DB",
             "search_parameters": {
                 "scope": {
-                    "journal_issn": "0073-1129"
+                    "issn": "0073-1129"
                 }
             },
             "comment": ""
